@@ -68,7 +68,10 @@ client.on('messageCreate', msg => {
             with an imdb rating of: ${imdbRating} 
             and a Metascore of: ${Metascore} 
             The plot: ${Plot} 
-            It features actors: ${Actors}`
+            It features actors: ${Actors}
+            fuck you suchy!
+            `
+
             msg.channel.send(output_msg)
         })
     }
